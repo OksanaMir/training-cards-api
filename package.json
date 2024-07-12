@@ -1,5 +1,10 @@
 {
-  "devDependencies": {
-    "netlify-cli": "^17.33.3"
-  }
+	"devDependencies": {
+		"netlify-cli": "^17.33.3"
+	},
+	"scripts": {
+		"netlify:init": "netlify init",
+		"netlify:deploy": "netlify deploy",
+		"netlify:deploy:prod": "netlify deploy --prod"
+	}
 }
